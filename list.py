@@ -29,8 +29,15 @@ a.pop()                            #Pop is used for poping or removing the Eleme
 print(a)  
 del a[-1]                          #del for deleting 
 print(a)
-a.clear()                          #Clearing the given Element
+a.clear()                          #Clearing all the Element
 print(a)      
                  #Loop in the List
-if 'c' in a :                      #We can use the if condition in the list
-    print(c)        
+if 3 in b :                      #We can use the if condition in the list
+    print(3)   
+for i in range(len(b)):          #To split the list supperatly
+    print(b[i])
+i = 0                            #It is took that imaganary=0    
+while i<len(b):                  #While the imaganary is less and len of b is grater
+    print(b[i])                  #Printing the list and the value of i element
+    i=i+1                        #i=0 and i=0+1 and i=1+1 until the end i=7+1
+[print(x)for x in b]             #The x is a value so elements in the b list
