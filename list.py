@@ -66,8 +66,19 @@ a = ['C','D','a','b']
 a.sort(key=str.lower)            #It will be sotring the insensitive data
 print(a)
 
-def list(n):
+def lists(n):
     return abs(n-10)             #Returning the nearest values of 10
 c = [50,20,11,9,6,17,22,5,1]  
-c.sort(key=list)                 #Using the functin in the sort key
+c.sort(key=lists)                 #Using the functin in the sort key
 print(c)
+                   #Copy the List
+a = ['apple','banana','cherry','pinapple','guava']
+
+fruit = a.copy()                 #Copying the lsit 
+print(fruit)
+
+frutis = list(a)                 #Copying the list with the List method
+print(frutis)
+
+frut = a[:]                      #We can also copy the list with the :
+print(frut)
