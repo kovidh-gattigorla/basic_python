@@ -82,3 +82,18 @@ print(frutis)
 
 frut = a[:]                      #We can also copy the list with the :
 print(frut)
+                   #Adding 2 List
+
+l1 = ['a','b','c','d','e','f']
+l2 = [1,2,3,4,5,6]
+l3 = l1+l2                       #Adding the list in the Arthamatic operation
+print(l3)
+
+for x in l2:
+    l1.append(x)                 #By using the append command for adding
+print(l1)
+
+l1.extend(l2)                    #Extending the list by extend command
+print(l1)
+
+
