@@ -22,3 +22,22 @@ print(t[1:8:2])                                     #simelat with first 2 the la
 for thing in t2:                                     #Checking the Existency
     print('exist')
     break
+                    #Update the tuple
+y = list(t2)                                      #We take the 2 variable to convert the tuple into the list
+y[1] = "HYD"                                      #We made the change in the list
+t2 = tuple(y)                                     #Again converted back from list to tuple
+print(t2)
+
+y = list(t1)                                     #We take the 2 variable to convert the tuple into the list
+y.append('h')                                    #Used an append command
+t1 = tuple(y)                                    #Again converted back from list to tuple
+print(t1)
+
+y = (10,)                                        #Here we used alother tuple with (10,)
+t += y                                           #We mixed it in to the t tuple
+print(t)
+
+y = list(t1)                                     #We take the 2 variable to convert the tuple into the list
+y.remove('g')                                    #Used an remove command
+t1 = tuple(y)                                    #Again converted back from list to tuple
+print(t1)
