@@ -41,3 +41,16 @@ y = list(t1)                                     #We take the 2 variable to conv
 y.remove('g')                                    #Used an remove command
 t1 = tuple(y)                                    #Again converted back from list to tuple
 print(t1)
+                    #Unpack the tuple
+print(t1[2])                                     #To unpack we can write the position of the tuple
+(n,a,m,e) = t2                                   #Here we gave variables as the option
+print(a)
+(r,*b) = t2                                      #Here * will be counting from last 
+print(b)
+               #Loop in tuple
+for x in t:                                      #For loop
+    print(x)
+i=0
+while i<len(t1):                                 #Whiile i is smaller then tuple
+    print(t1[i])
+    i=i+1
