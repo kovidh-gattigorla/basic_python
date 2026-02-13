@@ -1,4 +1,4 @@
-t = (1,2,3,4,5,6,7,8,9)                             #In tuple we can enter integets but in ()
+t = (1,2,3,4,5,6,7,8,3,5,9,2,3)                             #In tuple we can enter integets but in ()
 t1 = ('a','b','c','d','e','f','g')                  #We can also enter alphabets ('')
 t2 = ('name','place','animal','thing')              #We can also use the ('words')
 t3 = (1.0,1.1,1.2,1.3,1.4,1.5,1.6)                  #Float can aslo be used
@@ -47,10 +47,21 @@ print(t1[2])                                     #To unpack we can write the pos
 print(a)
 (r,*b) = t2                                      #Here * will be counting from last 
 print(b)
-               #Loop in tuple
+                    #Loop in tuple
 for x in t:                                      #For loop
     print(x)
 i=0
 while i<len(t1):                                 #Whiile i is smaller then tuple
     print(t1[i])
     i=i+1
+                    #Join tuple
+t4 = t1+t2                                       #Here the 2 tuples are added in the 3 variable
+print(t4)                                   
+
+mul = t*2                                        #Here we are multiplying the tuple with same so there will be repetion of tuple
+print(mul)
+                    #Count tuple
+x = t.count(3)                                   #Here it will be counting how many times 3 exist in the tuple
+print(x)
+x = t.index(8)                                   #Counting the index of the 8
+print(x)
