@@ -28,5 +28,28 @@ print(a)
 s.clear()                                              #Clearing the total set
 print(s)
 s = {'a','b','c','d','e','f','g','h'}                 
-del s                                                  #Completely deleting the set
-print(s)
+#del s                                                  #Completely deleting the set
+#print(s)
+                            #Loop in set 
+for x in s1:                                            #For loop
+    print(x)
+                            #Join the set
+s5 = s1.union(s2,s3)                                    #By using the union we can add different types of set
+print(s5)
+s6 = s1|s2|s3                                           #By using | we can add different types of set
+print(s6)
+a = (4,5,6,7,8,9)
+all = s1.union(s2,a)                                    #We can aslo add tuple by union
+print(all)
+s1.update(s6)                                           #By using the update code
+print(s1)
+s7 = s1.intersection(s2)                                #Same elements exist
+print(s7)
+s8 = s2&s7                                              #Same elements will be stored i different set
+print(s8)
+s9 = s1.intersection_update(s7)                         #Interction elements will be update in 3set
+print(s9)
+s10 = s2.difference(s3)
+print(s10)
+s11 = s1 - s7
+print(s11)
