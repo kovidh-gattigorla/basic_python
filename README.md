@@ -4,4 +4,4 @@ This repository contains my practice programs while learning Python.
 
 Topic Covered
 
-1.Casting
+1.Data Types
