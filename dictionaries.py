@@ -48,4 +48,28 @@ for x in d2.keys():
     print(x)
 for x in d2.items():
     print(x)
-     
+                                     #Copy the dictionarie
+d3= d2.copy()                                                              #The d3 is the copy of of d2
+print(d3)
+d4=dict(d2)                                                                #The d4 is dict of d2
+print(d4)
+                                     #Nested dictionarie
+nd = {
+    'clas-1':{                                                           #First one
+        'name':'std',
+        'year':2026
+    },
+    'clas-2':{                                                          #Second one
+        'name':'std',
+        'year':2025
+    }
+}
+print(nd)
+                                     #Accessing Nested dictionarie
+print(nd['clas-1']['name'])
+print(nd['clas-2'])
+                                     #Looping the Nested dictionarie
+for x,obj in nd.items():
+    print(x)
+    for y in obj:
+        print(y,obj[y])
