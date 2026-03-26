@@ -9,5 +9,7 @@ Topic Covered
 3.Tuple     
 4.Set     
 5.Range    
-6.Data Types
+6.Data Types   
+7.Operations   
+
 
