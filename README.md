@@ -11,5 +11,7 @@ Topic Covered
 5.Range    
 6.Data Types   
 7.Operations   
+8.Funtions    
+
 
 
